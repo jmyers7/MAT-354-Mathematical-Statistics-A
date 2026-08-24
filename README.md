@@ -8,12 +8,6 @@
 
 **Office hours**: TBA
 
-**Syllabus**: [here](./syllabus/syllabus.pdf)
-
-**Handouts**: [here](./handouts/)
-
-**Text**: [here](./text/)
-
 ## Schedule
 
 Class Number/Date | Topics | Other information
