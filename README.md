@@ -12,4 +12,5 @@
 
 Class Number/Date | Topics | Suggested problems | Other information
 | :-: | :- | :- | :- |
+| Class 2: <br> Wed 08-26 | ↓ | ↓
 | Class 1: <br> Mon 08-24 | 1.4 Set theory | 1, 3, 7, 8, 10
