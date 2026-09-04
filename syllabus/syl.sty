@@ -1,0 +1,140 @@
+% Used for font stuff.
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% Used for email addresses and hyperlinks.
+\usepackage{url}
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+
+
+% Used to change headers.
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+
+% Used for page numbering. UPDATE: Package removed. You must place \label{lstPage} manually on the last page. We don't want to count the schedule as a page!
+\usepackage{lastpage}
+
+% Used for margins.
+\usepackage[margin=1in]{geometry}
+
+% Global \noindent.
+\setlength{\parindent}{0pt}
+
+% Change header and footers.
+\pagestyle{fancy}
+\rhead{Page {\thepage} of \pageref{LastPage}}
+\cfoot{}
+
+% Reset footer counters on each page.
+\usepackage[perpage]{footmisc}
+
+% Remove page number from first page.
+\thispagestyle{empty}
+
+% \sylhead command. Old!
+%\newcommand{\sylhead}[7]{ \begin{center}{\huge \textbf{#1\footnote{This is version #2, last updated #3. The most recent version of this sheet is available on Blackboard. Your instructor reserves the right to change this syllabus.}}}\\
+%{\LARGE #4 \\
+%#5, #6, #7
+%}\end{center}}
+
+\newcommand{\sylheadfootnote}[2]{ \begin{center}{\huge \textbf{Syllabus\footnote{This is version #1, last updated #2. This document is available online through Blackboard.}}}\end{center}}
+
+\newcommand{\schheadfootnote}[2]{ \begin{center}{\huge \textbf{Schedule\footnote{This is version #1, last updated #2. This schedule may need to change throughout the semester, and the most recent version is available online through Blackboard.}}}\end{center}}
+
+
+% \schhead command.
+\newcommand{\schhead}[7]{ \begin{center}{\huge \textbf{#1\footnote{This is version #2, last updated #3. The most recent version of this calendar is available on Blackboard. This is a tentative schedule!}}}\\
+{\LARGE #4 \\
+#5, #6, #7
+}\end{center}}
+
+% \instructorinfo command.
+\newcommand{\instructorinfo}[4]{
+\rule{\textwidth}{0.3mm}
+
+\vspace{0.085in}
+
+\textbf{Instructor:} #1 \\
+\textbf{Email:} \href{mailto:#2}{\nolinkurl{#2}} \\
+\textbf{Office:} #3 \\
+\textbf{Office Hours:} #4
+
+\rule{\textwidth}{0.3mm}
+}
+
+% \instructornopageinfo command.
+\newcommand{\instructornopageinfo}[4]{
+\rule{\textwidth}{0.3mm}
+
+\vspace{0.085in}
+
+\textbf{Instructor:} #1 \\
+\textbf{Email:} \href{mailto:#2}{\nolinkurl{#2}} \\
+\textbf{Office:} #3 \\
+\textbf{Office Hours:} #4
+
+\rule{\textwidth}{0.3mm}
+}
+
+% \instructorinfozoom command.
+\newcommand{\instructorinfozoom}[6]{
+\rule{\textwidth}{0.3mm}
+
+\vspace{0.085in}
+
+\textbf{Instructor:} #1 \\
+\textbf{Email:} \href{mailto:#2}{\nolinkurl{#2}} \medskip \\ 
+\textbf{Course materials folder:} \href{#3}{\nolinkurl{#4}} \medskip \\
+\textbf{Office hours:} #5 \\
+\textbf{Office hours Zoom link:} \href{#6}{\nolinkurl{#6}}
+
+\rule{\textwidth}{0.3mm}
+}
+
+% \instructorinfo command.
+\newcommand{\instructorinfomod}[4]{
+\rule{\textwidth}{0.3mm}
+
+\vspace{0.085in}
+
+\textbf{Instructor:} #1 \\
+\textbf{Email:} \href{mailto:#2}{\nolinkurl{#2}} \\
+\textbf{Course webpage:} \href{#3}{\nolinkurl{#3}} \\
+\textbf{Office:} #4
+
+}
+
+
+% \instructortainfo command.
+\newcommand{\instructortainfo}[8]{
+\rule{\textwidth}{0.3mm}
+
+\vspace{0.085in}
+
+\begin{minipage}{0.5\textwidth}
+\textbf{Instructor:} #1 \\
+\textbf{Email:} \url{#2} \\
+\textbf{Office:} #3 \\
+\textbf{Office Hours:} #4
+\end{minipage}\begin{minipage}{0.5\textwidth}
+\textbf{Teaching Assistant:} #5 \\
+\textbf{Email:} \url{#6} \\
+\textbf{Office:} #7 \\
+\textbf{Office Hours:} #8
+\end{minipage}
+
+\vspace{0.085in}
+
+\rule{\textwidth}{0.3mm}
+}
+
+
+% Calendars.
+\usepackage{termcal}
+\renewcommand{\calprintclass}{}
+\renewcommand{\calprintdate}{%
+	\ifnewmonth\framebox{\textbf{\monthname\ \ordinaldate}}%
+	\else \textbf{\ordinaldate}\fi
+}
+
