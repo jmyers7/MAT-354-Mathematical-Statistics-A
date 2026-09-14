@@ -12,6 +12,7 @@
 
 Class Number/Date | Topics | Suggested problems | Other information
 | :-: | :- | :- | :- |
+| Class 9: <br> Mon 09-14 | 2.2 Independent events | 2.2: 1, 3-9, 13
 | Class 8: <br> Fri 09-10 | 2.1 The definition of conditional probability, part 2 | 2.1, part 2: 9, 11, 13, 14 | Quiz 3 on Secs. 1.7 and 1.8
 | Class 7: <br> Wed 09-09 | Finish 1.8 <br> 2.1 The definition of conditional probability, part 1 | 2.1, part 1: 1-5
 | Class 6: <br> Fri 09-04 | Finish 1.7 <br> 1.8 Combinatorial methods | 1.8: 1, 4, 6-8, 10, 12, 17 | Quiz 2 on Secs. 1.4, 1.5, 1.6
