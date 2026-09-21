@@ -12,6 +12,7 @@
 
 Class Number/Date | Topics | Suggested problems | Other information
 | :-: | :- | :- | :- |
+| Class 12: <br> Mon 09-21 | 3.1 Random variables and discrete distributions, part 1 | 3.1: 1-11 odd
 | Class 11: <br> Fri 09-18 | Finish 2.3 | 2.3: 2-7, 13 | Quiz 4 on Secs. 2.1 and 2.2
 | Class 10: <br> Wed 09-16 | Finish 2.2 <br> 2.3 Bayes' Theorem | 2.3: 2-7, 13
 | Class 9: <br> Mon 09-14 | 2.2 Independent events | 2.2: 1, 3-9, 13
