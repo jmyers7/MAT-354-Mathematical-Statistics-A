@@ -12,6 +12,8 @@
 
 Class Number/Date | Topics | Suggested problems | Other information
 | :-: | :- | :- | :- |
+| Class 14: <br> Fri 09-25 | | | Quiz 5 on Secs. 2.3 and 3.1 (part 1)
+| Class 13: <br> Wed 09-23 | Finish 3.1, part 1 <br> 3.1 Random variables and discrete distributions, part 2 | 3.1: 1-11 odd
 | Class 12: <br> Mon 09-21 | 3.1 Random variables and discrete distributions, part 1 | 3.1: 1-11 odd
 | Class 11: <br> Fri 09-18 | Finish 2.3 | 2.3: 2-7, 13 | Quiz 4 on Secs. 2.1 and 2.2
 | Class 10: <br> Wed 09-16 | Finish 2.2 <br> 2.3 Bayes' Theorem | 2.3: 2-7, 13
