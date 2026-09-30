@@ -1,0 +1,56 @@
+\documentclass[12pt,reqno]{amsart}
+\usepackage{../handout, ../customcommands}
+\usepackage{caption}
+
+\hdr{MAT 240}{\S3.3 The cumulative distribution function}
+
+\begin{document}
+
+\textbf{Suggested problems:} 1-6, 8-12, 14, 15
+
+\bigskip
+\hrule
+
+\bigskip
+\prob Find the cumulative distribution function of a random variable $X\sim \mathcal{B}er(p)$.
+
+\vfill
+\prob Find the cumulative distribution function of a random variable $X \sim \mathcal{B}in(3, 1/5)$.
+
+\vfill
+\prob Let $X$ be a continuous random variable with density function
+	\[
+	f(x) = \begin{cases}
+	2x & : 0 < x< 1, \\
+	0 & : \text{else}.
+	\end{cases}
+	\]
+Find its cumulative distribution function.
+
+\vfill
+\prob The length of time to failure (in hundreds of hours) for a transistor is a random variable $X$ with cumulative distribution function given by
+	\[
+	F(x) = \begin{cases}
+	1-e^{-x^2} & : x\geq 0, \\
+	0 & : \text{else}.
+	\end{cases}
+	\]
+Compute the probability $P(X > 1 \mid X \leq 2)$.
+	
+\vfill
+\newpage
+\prob Suppose $X \sim \mathcal{B}in(3,1/5)$. Compute the following quantities.
+
+\medskip
+\begin{enumerate}
+\item The $95$-th percentile.\vfill
+\item The $0.8$-th quantile.\vfill
+\item The median.\vfill
+\item The $0.1$-th quantile.
+\end{enumerate}
+	
+\vfill	
+\prob For the random variable $X$ in Problem 4, compute a formula for the quantile function.
+
+\vfill
+\end{document}

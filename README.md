@@ -12,6 +12,8 @@
 
 Class Number/Date | Topics | Suggested problems | Other information
 | :-: | :- | :- | :- |
+| Class 17: <br> Fri 10-02 | | | Quiz 6 on Secs. 3.1 (part 2) and 3.2
+| Class 16: <br> Wed 09-30 | 3.3 The cumulative distribution function | 3.3: 1-6, 8-12, 14, 15 
 | Class 15: <br> Mon 09-28 | 3.2 Continuous distributions | 3.2: 1-13 | Exam 1 on Wed 10/7
 | Class 14: <br> Fri 09-25 | Finish 3.1, part 2 | ↓ | Quiz 5 on Secs. 2.3 and 3.1 (part 1)
 | Class 13: <br> Wed 09-23 | Finish 3.1, part 1 <br> 3.1 Random variables and discrete distributions, part 2 | 3.1: 1-11 
