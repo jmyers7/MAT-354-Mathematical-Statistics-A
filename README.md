@@ -14,7 +14,7 @@ Class Number/Date | Topics | Suggested problems | Other information
 | :-: | :- | :- | :- |
 | Class 19: <br> Wed 10-07 | | | Exam 1 on Secs. 1.4 to 3.3
 | Class 18: <br> Mon 10-05 | 3.4 Bivariate distributions, part 1 | 3.4: 1-5, 6(a), 7, 8, 10
-| Class 17: <br> Fri 10-02 | | | Quiz 6 on Secs. 3.1 (part 2) and 3.2
+| Class 17: <br> Fri 10-02 | Finish 3.3 | ↓ | Quiz 6 on Secs. 3.1 (part 2) and 3.2
 | Class 16: <br> Wed 09-30 | 3.3 The cumulative distribution function | 3.3: 1-6, 8-12, 14, 15 
 | Class 15: <br> Mon 09-28 | 3.2 Continuous distributions | 3.2: 1-13 | Exam 1 on Wed 10/7
 | Class 14: <br> Fri 09-25 | Finish 3.1, part 2 | ↓ | Quiz 5 on Secs. 2.3 and 3.1 (part 1)
