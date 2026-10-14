@@ -12,6 +12,8 @@
 
 Class Number/Date | Topics | Suggested problems | Other information
 | :-: | :- | :- | :- |
+| Class 22: <br> Fri 10-16 | | | Quiz 8 on Sec. 3.4
+| Class 21: <br> Wed 10-14 | Finish 3.4, part 2 <br> 3.5 Marginal distributions, part 1 | 3.5: 1-10
 | Class 20: <br> Mon 10-12 | 3.4 Bivariate distributions, part 2 | 3.4: 1-5, 6(a), 7, 8 
 | Class 19: <br> Wed 10-07 | | | Exam 1 on Secs. 1.4 to 3.3
 | Class 18: <br> Mon 10-05 | 3.4 Bivariate distributions, part 1 | 3.4: 1-5, 6(a), 7, 8 
