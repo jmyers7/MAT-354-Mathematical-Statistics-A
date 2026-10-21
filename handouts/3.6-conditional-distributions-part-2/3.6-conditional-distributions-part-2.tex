@@ -1,0 +1,47 @@
+\documentclass[12pt,reqno]{amsart}
+\usepackage{../handout, ../customcommands}
+\usepackage{caption}
+
+\hdr{MAT 240}{\S3.6 Conditional distributions, part 2}
+
+\begin{document}
+
+\textbf{Suggested problems:} 2-4, 6-10
+
+\bigskip
+\hrule
+
+\bigskip
+\prob Suppose $X$ and $Y$ are jointly continuous with joint p.d.f.
+\[
+	f(x,y) = \begin{cases}
+	\frac{21}{4}x^2y & : x^2 \leq y \leq 1, \\
+	0 & : \text{else}.
+	\end{cases}
+\]
+
+\begin{enumerate}
+\item Compute the conditional p.d.f.\ $g(y\mid x)$.\vfill
+\item Compute $P(Y\geq 1/4 \mid X=1/2)$.\vfill
+\item Compute $P(Y\geq 3/4 \mid X=1/2)$.
+\end{enumerate}
+
+\vfill
+\newpage
+\prob Let $X$ be the amount of time that a person has to wait for service in a queue. The faster the server works in the queue, the shorter should be the waiting time. Let $Y$ stand for the rate at which the server works, which we will take to be unknown. A common choice of conditional distribution for $X$ given $Y=y$ has conditional p.d.f.\ for each $y>0$:
+\[
+	g(x\mid y) = \begin{cases}
+	y e^{-xy} & : x\geq 0, \\
+	0 & : \text{else}.
+	\end{cases}
+\]
+Suppose that $Y$ has p.d.f.\ given by
+\[
+	f(y) = \begin{cases}
+	e^{-y} & : y>0, \\
+	0 & : \text{else}.
+	\end{cases}
+\]
+Compute the joint p.d.f.\ $f(x,y)$.
+
+\end{document}
