@@ -1,0 +1,44 @@
+\documentclass[12pt,reqno]{amsart}
+\usepackage{../handout, ../customcommands}
+\usepackage{caption}
+
+\hdr{MAT 240}{\S3.6 Conditional distributions, part 3}
+
+\begin{document}
+
+\textbf{Suggested problems:} 2-4, 6-10
+
+\bigskip
+\hrule
+
+\bigskip
+\prob (Example 3.6.10) Suppose that a point $X$ is chosen from the uniform distribution on $[0,1]$, and after choosing a point $X=x$, a point $Y$ is chosen from the uniform distribution on $[x,1]$.
+
+\medskip
+\begin{enumerate}
+\item Compute the marginal p.d.f.\ $f(y)$.\vfill
+\item Compute the conditional p.d.f.\ $g(x\mid y)$.\vfill
+\end{enumerate}
+
+\newpage
+\prob Suppose that either of two instruments might be chosen for making a certain measurement. Let $Y$ be a random variable with $Y=1$ or $Y=2$, depending on whether the first or second instrument is chosen, with equal probability that either is chosen. If $X$ is the value of the measurement, suppose that we have conditional p.d.f. functions
+\[
+	g(x\mid y=1) = \begin{cases}
+	2x & : 0 < x < 1, \\
+	0 & : \text{else},
+	\end{cases}
+\]
+and
+\[
+	g(x\mid y=2) = \begin{cases}
+	3x^2 & : 0 < x < 1, \\
+	0 & : \text{else}.
+	\end{cases}
+\]
+\begin{enumerate}
+\item Compute the marginal p.d.f.\ $f(x)$.\vfill
+\item If the value of the measurement is $X=1/4$, what is the probability that instrument $1$ was used?\vfill
+\end{enumerate}
+
+
+\end{document}

@@ -12,7 +12,7 @@
 
 Class Number/Date | Topics | Suggested problems | Other information
 | :-: | :- | :- | :- |
-| Class 25: <br> Fri 10-23 | | | Quiz 9 on Sec 3.5
+| Class 25: <br> Fri 10-23 | Finish 3.6, part 2 <br> 3.6 Conditional distributions, part 3 | 3.6: 2-4, 6-10 | Quiz 9 on Sec 3.5
 | Class 24: <br> Wed 10-21 | Finish 3.6, part 1 <br> 3.6 Conditional distributions, part 2 | 3.6: 2-4, 6-10
 | Class 23: <br> Mon 10-19 | Finish 3.5, part 2 <br> 3.6 Conditional distributions, part 1 | 3.5: 1-10 <br> 3.6: 2-4, 6-10
 | Class 22: <br> Fri 10-16 | 3.5 Marginal distributions, part 2 | ↓ | Quiz 8 on Sec. 3.4
