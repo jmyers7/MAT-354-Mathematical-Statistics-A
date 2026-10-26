@@ -1,0 +1,59 @@
+\documentclass[12pt,reqno]{amsart}
+\usepackage{../handout, ../customcommands}
+\usepackage{caption}
+
+\hdr{MAT 240}{\S3.7 Multivariate distributions, part 1}
+
+\begin{document}
+
+\textbf{Suggested problems:} 1, 3, 6, 8
+
+\bigskip
+\hrule
+
+\bigskip
+\prob Consider a sample space $S=\{a,b,c,d\}$ with probability measure $P$ given by
+\[
+\begin{array}{c|c}
+	s & P(\{s\}) \\ \hline
+	a & 0.1 \\
+	b & 0.2 \\
+	c & 0.3 \\
+	d & 0.4 
+\end{array}
+\]
+Suppose we have three random variables $X_1$, $X_2$, and $X_3$ with values
+\[
+\begin{array}{c|ccc}
+	s & X_1(s) & X_2(s) & X_3(s) \\ \hline
+	a & 2 & 3 & 1 \\
+	b & 5 & 4 & 3 \\
+	c & 1 & 0 & 1 \\
+	d & 2 & 3 & 1
+\end{array}
+\]
+Describe the probability distribution of the $3$-dimensional random vector $\mathbf{X} = (X_1,X_2,X_3)$.
+
+\vfill
+\prob Suppose that a machine has three parts, and part $i$ will fail at time $X_i$, for $i=1,2,3$. Suppose that the c.d.f.\ of $\mathbf{X} = (X_1,X_2,X_3)$ is
+\[
+	F(x_1,x_2,x_3) = \begin{cases}
+	(1-e^{-x_1})(1-e^{-2x_2})(1-e^{-3x_3}) & : x_1,x_2,x_3 \geq 0, \\
+	0 & : \text{else}.
+	\end{cases}
+\]
+Compute the p.d.f.\ of $\mathbf{X}$.
+
+\vfill
+\newpage
+\prob Suppose that a point $(X_1,X_2,X_3)$ is chosen uniformly at random from the set
+\[
+	S = \{(x_1,x_2,x_3) : 0 \leq x_i \leq 1, \ i=1,2,3\}.
+\]
+Compute the following:
+\begin{enumerate}
+\item $P \left( \left(X_1 - \frac{1}{2}\right)^2 + \left(X_2 - \frac{1}{2}\right)^2 + \left(X_3 - \frac{1}{2}\right)^2 \leq \frac{1}{4} \right)$\vspace{2.5in}
+\item $P \left( X_1^2 + X_2^2 + X_3^2 \leq 1\right)$\vspace{2.5in}
+\end{enumerate}
+
+\end{document}
