@@ -1,0 +1,37 @@
+\documentclass[12pt,reqno]{amsart}
+\usepackage{../handout, ../customcommands}
+\usepackage{caption}
+
+\hdr{MAT 240}{\S3.7 Multivariate distributions, part 2}
+
+\begin{document}
+
+\textbf{Suggested problems:} 1, 3, 6, 8
+
+\bigskip
+\hrule
+
+\bigskip
+\prob (Example 3.7.5) Suppose that $n$ customers arrive at a single-server queue for service. Let $X_i$ be the amount of time that the server spends serving customer $i$ for $i=1,2,\ldots,n$. The $n$-dimensional random vector $\mathbf{X} = (X_1,X_2,\ldots,X_n)$ has density function
+\[
+	f(\mathbf{x}) = \begin{cases}
+	\displaystyle\frac{c}{(2 + \sum_{i=1}^n x_i)^{n+1}} & : \text{for all $x_i>0$}, \\
+	0 & : \text{else},
+	\end{cases}
+\]
+for some positive constant $c$.
+
+\medskip
+\begin{enumerate}
+\item Compute the value of $c$.\vfill
+\item Suppose $n=5$, and compute the marginal density function $f(x_1,x_4)$.\vfill\newpage
+\item Continuing with $n=5$, compute the marginal density function $f(x_2)$.\vfill
+\item Continuing again with $n=5$, compute $P(X_2 > 3)$.\vfill
+\end{enumerate}
+
+\prob Assuming $n=5$, are the random variables $X_1$, $X_2$, and $X_3$ in Problem 1 independent?\vfill
+
+
+
+
+\end{document}
