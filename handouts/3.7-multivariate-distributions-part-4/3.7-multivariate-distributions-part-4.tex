@@ -1,0 +1,36 @@
+\documentclass[12pt,reqno]{amsart}
+\usepackage{../handout, ../customcommands}
+\usepackage{caption}
+
+\hdr{MAT 240}{\S3.7 Multivariate distributions, part 4}
+
+\begin{document}
+
+\textbf{Suggested problems:} 1, 3, 6, 8
+
+\bigskip
+\hrule
+
+\bigskip
+\prob Define the function $\sigma: \mathbb{R} \to \mathbb{R}$ by setting
+\[
+	\sigma(z) = \frac{1}{1+e^{-z}}.
+\]
+This is called the \textit{sigmoid function}. 
+
+\medskip
+\begin{enumerate}
+\item Draw a graph of $\sigma$.\vfill
+\item Compute the range of $\sigma$.\vfill
+\end{enumerate}
+
+\prob Suppose that $X_1$ and $X_2$ are independent indicator random variables, both distributed as $\mathcal{B}er(1/2)$, where $X_1$ codes whether a patient smokes and $X_2$ codes whether they have family history of a certain disease. Suppose $Y$ is a third indicator random variable that codes whether the patient has the disease. Suppose that we model $Y$ with a logistic regression model with predictors $X_1$ and $X_2$, and parameters $\beta_0 = -2$, $\beta_1 = 1$, and $\beta_2 = 1.5$.
+
+\begin{enumerate}
+\item Compute the marginal p.m.f.\ $f(y)$.\vfill
+\item Given that a patient has the disease, what is the probability that they both smoke and have a family history?\vfill
+\item Given that a patient has the disease, what is the probability that they smoke?\vfill
+\end{enumerate}
+
+
+\end{document}
