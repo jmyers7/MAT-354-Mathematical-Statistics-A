@@ -1,0 +1,61 @@
+\documentclass[12pt,reqno]{amsart}
+\usepackage{../handout, ../customcommands}
+\usepackage{caption}
+
+\hdr{MAT 240}{\S4.1 Expectation of a random variable, part 1}
+
+\begin{document}
+
+\textbf{Suggested problems:} 1-5
+
+\bigskip
+\hrule
+
+\bigskip
+\prob Suppose that $X \sim \mathcal{U}nif(a,b)$ is a \textbf{discrete} uniform random variable. Compute the expectation $E(X)$.\vfill
+
+\prob Suppose $X\sim \mathcal{B}er(p)$. Compute the expectation $E(X)$.
+
+\vfill
+\prob (Example 4.1.2) A stock purchased for $\$18$ is worth $18 + X$ a year later, where $X$ is a discrete random variable with p.f.\ given by
+\[
+	f(x) = \begin{cases}
+	0.1 &: x=-2, \\
+	0.4 &: x=0, \\
+	0.3 &: x=1, \\
+	0.2 &: x=4, \\
+	0&: \text{else}.
+	\end{cases}
+\]
+
+\begin{enumerate}
+\item Compute the expected value $E(18+X)$ of the stock a year later.\vfill
+\item Suppose that a person is deciding between investing their $\$18$ in the stock, or a savings account earning $5\%$ annual interest. Which of the two investments would they choose if they were risk averse? Risk seeking? Risk neutral?
+\end{enumerate}
+
+\newpage
+\vfill
+\prob Suppose that $X \sim \mathcal{U}nif(a,b)$ is a \textbf{continuous} uniform random variable. Compute the expectation $E(X)$.
+
+\vfill
+\prob (Example 4.1.6) An appliance has a maximum lifetime of one year. The time $X$ until it fails is a random variable with p.d.f.\ given by
+\[
+	f(x) = \begin{cases}
+	2x & : 0 < x < 1, \\
+	0 & : \text{else}.
+	\end{cases}
+\]
+Compute the average time till failure.
+
+\vfill
+\prob (Example 4.1.11) Suppose that $X$ is a continuous random variable with p.d.f.\ given by
+\[
+	f(x) = \begin{cases}
+	3x^2 & : 0 < x < 1, \\
+	0 & : \text{else}.
+	\end{cases}
+\]
+Compute the expectation of $Y = 1/X$.
+
+\vfill
+\end{document}
