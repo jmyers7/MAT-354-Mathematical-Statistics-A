@@ -1,0 +1,34 @@
+\documentclass[12pt,reqno]{amsart}
+\usepackage{../handout, ../customcommands}
+\usepackage{caption}
+
+\hdr{MAT 240}{\S4.1 Expectation of a random variable, part 2}
+
+\begin{document}
+
+\textbf{Suggested problems:} 8, 9, 13
+
+\bigskip
+\hrule
+
+\bigskip
+\prob Suppose that a point $(X,Y)$ is chosen at random from the unit square with $0 \leq x \leq 1$ and $0 \leq y \leq 1$. Compute $E(X^2+Y^2)$.\vfill
+
+\bigskip
+\prob (Example 4.1.14) The current value of a single share of a stock is $S_0=\$200$. In one year, the price of the stock will either be $S_1=\$260$ or $S_1 = \$180$, the former with probability $q$. Suppose that you may invest money at a risk-free annual rate of $4\%$. You have decided to purchase an \textit{option contract} that allows you the right (but not the obligation) to buy the stock at a price of $K=\$200$ in one year. This contract costs money, and the goal of this problem is to compute its price.
+
+\medskip
+\begin{enumerate}
+\item First we compute $q$ as a \textit{risk-neutral probability}. This means that purchasing one share of the stock right now for $S_0=\$200$ will be equivalent (in expectation) to investing $\$200$ at the $4\%$ risk-free rate. Compute $q$. (With $q$ chosen this way, the price $S_0$ of the stock is called its \textit{risk-neutral price}.)\vfill
+
+\item Suppose you purchase the option contract. If, in one year's time, the price of the stock is $\$260$, then you purchase the stock at $K=\$200$, then turn around and sell it for $\$260$ and pocket $\$60$ in profit. If the price of the stock is $\$180$, you let the contract expire worthless. So, the payoff of the stock is the random variable $\Phi(S_1)$, where
+\[
+	\Phi(s_1) = \begin{cases}
+	60 & : s_1 = 260, \\
+	0 & : s_1 = 180.
+	\end{cases}
+\]
+Compute the risk-neutral price of the option contract.\vfill
+\end{enumerate}
+
+\end{document}
