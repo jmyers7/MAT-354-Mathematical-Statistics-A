@@ -12,6 +12,11 @@
 
 Class Number/Date | Topics | Suggested problems | Other information
 | :-: | :- | :- | :- |
+| Class 32: <br> Wed 11-18 | | | Exam 2 on Secs. 3.4 to ??? 
+| Class 32: <br> Mon 11-16 | 
+| Class 32: <br> Fri 11-13 | 
+| Class 32: <br> Wed 11-11 | 
+| Class 32: <br> Mon 11-09 | 4.2 Properties of expectations | 4.2: 1-7
 | Class 31: <br> Fri 11-06 | 4.1 Expectation of a random variable, part 2 | 4.1, part 2: 8, 9, 13 | Quiz 11 on Sec. 3.7
 | Class 30: <br> Wed 11-04 | 4.1 Expectation of a random variable, part 1 | 4.1, part 1: 1-5
 | Class 29: <br> Mon 11-02 | 3.7 Multivariate distributions, part 4 | 3.7: 1, 3, 6, 8 
