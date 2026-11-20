@@ -12,10 +12,11 @@
 
 Class Number/Date | Topics | Suggested problems | Other information
 | :-: | :- | :- | :- |
-| Class 32: <br> Wed 11-18 | | | Exam 2 on Secs. 3.4 to 4.3 
-| Class 32: <br> Mon 11-16 | 4.4 Moments, part 2 | 4.4, part 2: 8, 10-12
-| Class 32: <br> Fri 11-13 | 4.4 Moments, part 1 | 4.4, part 1: 1-3, 7 | Quiz 12 on Sec. 4.1, 4.2 
-| Class 32: <br> Wed 11-11 | 4.3 Variance | 4.3: 1-7 
+| Class 37: <br> Fri 11-19 | 5.3: Hypergeometric distributions <br> 5.4: Poisson distributions | 5.3: 2-5 <br> 5.4: 2, 3, 6, 7
+| Class 36: <br> Wed 11-18 | | | Exam 2 on Secs. 3.4 to 4.3 
+| Class 35: <br> Mon 11-16 | 4.4 Moments, part 2 | 4.4, part 2: 8, 10-12
+| Class 34: <br> Fri 11-13 | 4.4 Moments, part 1 | 4.4, part 1: 1-3, 7 | Quiz 12 on Sec. 4.1, 4.2 
+| Class 33: <br> Wed 11-11 | 4.3 Variance | 4.3: 1-7 
 | Class 32: <br> Mon 11-09 | 4.2 Properties of expectations | 4.2: 1-7
 | Class 31: <br> Fri 11-06 | 4.1 Expectation of a random variable, part 2 | 4.1, part 2: 8, 9, 13 | Quiz 11 on Sec. 3.7
 | Class 30: <br> Wed 11-04 | 4.1 Expectation of a random variable, part 1 | 4.1, part 1: 1-5
